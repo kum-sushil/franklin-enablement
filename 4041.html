@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Oops Page Not found!!</title>
+  <title>Page not found training on 404</title>
   <script type="text/javascript">
     window.isErrorPage = true;
     window.errorCode = '404';
@@ -26,7 +26,7 @@
           btnContainer.append(backBtn);
         }
       }
-      sampleRUM('404', { source: document.referrer, target: window.location.href });
+      sampleRUM('custom-404', { source: document.referrer, target: window.location.href });
     });
   </script>
   <link rel="stylesheet" href="/styles/styles.css">
@@ -53,9 +53,9 @@
   <main class="error">
     <div class="section">
       <svg viewBox="1 0 38 18" class="error-number">
-        <text x="0" y="17">Sorry we cannot locate the page you are looking for, it's a 404</text>
+        <text x="0" y="17">404</text>
       </svg>
-      <h2 class="error-message">Sorry we cannot locate the page you are looking for, it's a 404</h2>
+      <h2 class="error-message">Page Not Found</h2>
       <p class="button-container">
         <a href="/" class="button secondary error-button-home">Go home</a>
       </p>
