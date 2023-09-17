@@ -1,0 +1,59 @@
+.social-share div ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-share div ul li{
+    list-style: none;
+    padding:5px;
+
+}
+
+.social-share > div{
+    display:grid;
+    grid-template-columns: 100px 300px ;
+}
+.social-share > div > div:first-child img{
+    border-radius: 60px;
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+}
+
+.social-share > div > div:last-child img{
+    height: 30px;
+    width: 30px;
+    padding: 5px 10px;
+    object-fit: cover;
+}
+
+.social-share > div > div:last-child{
+    grid-column: 1/3;
+}
+
+.social-share h1,.social-share h2,.social-share h3,.social-share h4,.social-share h5,.social-share h6,.social-share p {
+    margin: 0 0;
+    padding: 0 20px;
+}
+
+.social-share p{
+    font-size: var(--body-font-size-xs);
+}
+
+
+@media (min-width: 900px) {
+
+    .social-share > div{
+        grid-template-columns: 100px 300px 200px;
+    }
+    .social-share > div > div:last-child{
+        grid-column: 3/4;
+    }
+    
+}
+
+.social-share ul{
+    list-style: none;
+    display: flex ;
+    
+}
+

@@ -1,0 +1,34 @@
+.layout > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .layout img {
+    width: 100%;
+  }
+  
+  .layout > div > div {
+    order: 1;
+  }
+  
+  .layout > div > .layout-img-col {
+    order: 0;
+  }
+  
+  .layout > div > .layout-img-col img {
+    display: block;
+  }
+  
+  @media (min-width: 900px) {
+    .layout > div {
+      align-items: center;
+      flex-direction: unset;
+      gap: 32px;
+    }
+  
+    .layout > div > div {
+      flex: 1;
+      order: unset;
+    }
+  }
+  
