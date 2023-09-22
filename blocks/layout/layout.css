@@ -21,14 +21,46 @@
   
   @media (min-width: 900px) {
     .layout > div {
-      align-items: center;
       flex-direction: unset;
       gap: 32px;
+      align-items: baseline;
     }
   
     .layout > div > div {
       flex: 1;
       order: unset;
     }
+    .layout p a{
+      text-transform: uppercase;
+      color: #000;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .layout p a:hover{
+      text-decoration: none;
+    }
+    
+  }
+
+  .layout P{
+    color: dimgray;
+    display: block;
+    font-size: 14px;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 260px;
+  }
+
+  .layout p a{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .layout p a:hover{
+    text-decoration: none;
   }
   

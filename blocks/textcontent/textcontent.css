@@ -1,0 +1,19 @@
+.textcontent div>div>p{
+    font-size: 13px;
+    line-height: 1.25;
+    text-align: justify;
+}
+
+.textcontent p a{
+    text-decoration: underline;
+}
+
+.footer .textcontent p{
+    font-size: 13px;
+    line-height: 1.25;
+    text-align: justify;
+}
+
+.footer .textcontent p a{
+    text-decoration: underline;
+}

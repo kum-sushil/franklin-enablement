@@ -1,0 +1,12 @@
+.list div>div ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+.list div>div ul li{
+   color:#ebebeb;
+}

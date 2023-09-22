@@ -6,7 +6,7 @@ footer {
 }
 
 .footer img{
-  width:30px;
+  width:70px;
   height:30px;
 }
 .footer p{
@@ -20,4 +20,56 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+/* footer .footer div>div{
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* footer .footer .list div>div ul{
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  list-style: none;
+  margin: 0;
+  padding-inline-start: 0;
+} */
+
+footer .footer div:nth-child(2){
+  display: flex;
+}
+
+footer .footer .list ul{
+  display: flex;
+}
+
+footer .footer .list ul li{
+ color:#ebebeb;
+}
+
+footer .footer .social-share ul{
+  list-style: none;
+  display: flex ;
+  
+}
+
+footer .footer div>div{
+  display: flex;
+  list-style: none;
+}
+
+
+footer .footer .textcontent p a{
+  text-decoration: underline;
+}
+
+footer .footer .textcontent p{
+  font-size: 13px;
+  line-height: 1.25;
+  text-align: justify;
+}
+
+footer .footer .textcontent p a{
+  text-decoration: underline;
 }

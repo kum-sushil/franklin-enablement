@@ -1,5 +1,24 @@
 .franklin-banner{
-    background-color: blue;
-    padding: 5px;
+    display: flex;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.franklin-banner img{
     width: 100%;
+    height: auto;
+}
+
+.franklin-banner:nth-child(2){
+    background-color: #fff;
+    float: left;
+    height: 180px;
+    margin-top: -180px;
+    min-height: 180px;
+    padding-bottom: 0;
+    padding-left: 28px;
+    padding-right: 28px;
+    position: relative;
+    width: 71pc;
 }

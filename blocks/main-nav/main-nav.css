@@ -1,0 +1,12 @@
+.header .nav-wrapper .nav-brand .main-nav{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.header .main-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}

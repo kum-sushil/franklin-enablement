@@ -169,13 +169,26 @@ header nav[aria-expanded="true"] .nav-sections {
 
 header nav .nav-sections ul  {
   list-style: none;
-  padding-left: 0;
-  font-size: var(--body-font-size-s);
-  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav .nav-sections ul li img {
+  width: 200px;
+  height: 100px;
 }
 
 header nav .nav-sections ul > li {
-  font-weight: 700;
+  padding-top: 200px;
+}
+
+header nav .nav-sections ul > li a{
+  color: #202020;
+    font-size: 14px;
+    padding: 15px 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;  
 }
 
 header nav .nav-sections ul > li > ul {
@@ -272,4 +285,45 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+.header .nav-wrapper .nav-brand .main-nav{
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  margin-top: 150px;
+  width: 1200px;
+  padding: 30px;
+}
+
+.header .main-nav ul{
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.header .main-nav ul li a{
+    color: #202020;
+    font-size: 14px;
+    padding: 15px 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.header .main-nav ul li a:hover{
+  background-color: #ffea00;
+  border-radius: 0;
+  color: #202020;
+  float: left;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1em 2.5em;
+  text-transform: uppercase;
+  align-items: baseline;
+}
+
+.header .main-nav ul li span.icon.icon-search{
+  display: block;
+  position: absolute;
 }
