@@ -36,16 +36,24 @@ footer .footer p {
   padding-inline-start: 0;
 } */
 
-footer .footer div:nth-child(2){
-  display: flex;
-}
 
 footer .footer .list ul{
   display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 
-footer .footer .list ul li{
+footer .footer div>div:first-child{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+footer .footer .list ul li a{
  color:#ebebeb;
+ text-decoration: none;
+ font-size: 14px;
 }
 
 footer .footer .social-share ul{
@@ -54,14 +62,18 @@ footer .footer .social-share ul{
   
 }
 
-footer .footer div>div{
-  display: flex;
-  list-style: none;
+
+
+
+footer .footer .textcontent p{
+  display: block;
 }
 
-
+footer .footer .textcontent div>div{
+  display: block;
+}
 footer .footer .textcontent p a{
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 footer .footer .textcontent p{
@@ -71,5 +83,21 @@ footer .footer .textcontent p{
 }
 
 footer .footer .textcontent p a{
-  text-decoration: underline;
+  text-decoration: none;
+  color:#ebebeb;
+  font-weight: 700;
+}
+
+footer .footer .social-share img{
+  width:30px;
+  height:30px;
+}
+
+
+footer .footer .social-share{
+  display: flex;
+  align-items: center;
+  float: right;
+  padding-left: 17rem;
+  flex-grow: 1;
 }

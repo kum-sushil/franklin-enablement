@@ -1,3 +1,10 @@
+.social-share{
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    padding: 5px;
+    margin: 3px;
+}
 .social-share div ul{
     display: flex;
     justify-content: space-evenly;
@@ -9,8 +16,9 @@
 }
 
 .social-share > div{
-    display:grid;
-    grid-template-columns: 100px 300px ;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .social-share > div > div:first-child img{
     border-radius: 60px;
@@ -27,7 +35,7 @@
 }
 
 .social-share > div > div:last-child{
-    grid-column: 1/3;
+    display: flex;
 }
 
 .social-share h1,.social-share h2,.social-share h3,.social-share h4,.social-share h5,.social-share h6,.social-share p {
@@ -36,7 +44,7 @@
 }
 
 .social-share p{
-    font-size: var(--body-font-size-xs);
+    font-size: var(--body-font-size-xs, 14px);
 }
 
 
