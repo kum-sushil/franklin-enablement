@@ -30,11 +30,12 @@
       flex: 1;
       order: unset;
     }
-    .layout p a{
+    .layout p a.button{
       text-transform: uppercase;
       color: #000;
       font-size: 14px;
       font-weight: bold;
+      background-color: #fff;
     }
     .layout p a:hover{
       text-decoration: none;
